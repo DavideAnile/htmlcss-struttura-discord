@@ -1,12 +1,95 @@
 .container-centered{
-    width: 1500px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-#nav-wrapper{
-    
-    height: 80px;
-    
+ /* nav-bar */
+#nav-inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80px;
+        background-color: green;
 }
+        
+        
+
+#nav-inner ul{
+    list-style-type: none;
+}
+   
+    
+
+
+
+#logo{
+    width: 100px;
+    height: 80px;
+    background-color: darkgreen;
+}
+
+#login{
+    width: 100px;
+    height: 80px;
+    background-color: darkgreen;
+}
+
+#links ul{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+}
+#links{
+    display: flex;
+    align-items: center;
+}
+#links li{
+    width: 100px;
+    height: 40px;
+    background-color: darkgreen;
+}
+
+/* /nav-bar */
+
+/* jambo */
+#jambo{
+    display: flex;
+    flex-flow: column ;
+     justify-content:space-evenly;
+     align-items: center;
+    
+    height: 400px;
+    background-color: aqua;
+}
+
+#title-article{
+    width: 445px;
+    height: 40px;
+    background-color: lightcoral;
+}
+
+#article-text{
+   width: 600px;
+   height: 150px;
+   background-color: lightcoral; 
+}
+
+#download-mac{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: lightcoral;
+    
+
+}
+
+#browser-open{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: lightcoral;
+}
+
+/* /jambo */
