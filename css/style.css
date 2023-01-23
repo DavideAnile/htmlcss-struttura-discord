@@ -1,5 +1,5 @@
 .container-centered{
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,7 +21,7 @@
     background-color: darkgreen;
 }
 
-#login{
+#login, #signup{
     width: 100px;
     height: 80px;
     background-color: darkgreen;
@@ -144,7 +144,7 @@
 
 /* /third-section */
 
-
+/* last-section */
 .last-section{
     display: flex;
     flex-flow: column nowrap;
@@ -172,5 +172,61 @@
     height: 80px;
     background-color: lightcoral;
 
+}
+
+/* /Laset-section */
+
+
+/* footer */
+
+    
+.credits{
+   height: 600px; 
+   background-color: lightgray;
+}
+
+.credits ul{
+    list-style-type: none;
+
+}
+.credits-first-section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    border-bottom: 2px solid blue;
+    
+}
+
+
+#contacts{
+    width: 250px;
+    height: 150px;
+    background-color: lightskyblue;
+
+}
+
+#products, #companies, #norms{
+    height: 250px;
+    width: 110px;
+    background-color: lightblue;
+}
+
+#resources{
+    width: 120px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.credits-last-section{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+    
+    align-items: center;
+    height: 200px;
+ 
 }
 
