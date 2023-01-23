@@ -143,3 +143,34 @@
 }
 
 /* /third-section */
+
+
+.last-section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 1400px;
+    background-color: lightgreen;
+}
+
+#last-sect-title, #last-sect-text{
+    height: 50px;
+    width: 1000px;
+    background-color: lightcoral;
+}
+
+#last-sect-img{
+    width: 1000px;
+    height: 550px;
+    background-color: lightcoral;
+
+}
+
+#last-sect-credits{
+    width: 600px;
+    height: 80px;
+    background-color: lightcoral;
+
+}
+
